@@ -4,8 +4,9 @@ import MainLayout from "../Layout/MainLayout";
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <MainLayout/>
-    }
+        element: <MainLayout/>,
+        
+    },
 ])
 
 export default router;
