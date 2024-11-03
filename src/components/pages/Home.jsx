@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../Banner";
 import Categories from "../Categories";
 
@@ -20,7 +20,7 @@ const Home = () => {
 
 
             {/* Dynamic Nasted component */}
-
+                <Outlet/>
         </div>
     );
 };

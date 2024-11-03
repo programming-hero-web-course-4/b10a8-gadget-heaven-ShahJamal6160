@@ -6,20 +6,20 @@ import GadgetCard from "../GadgetCard";
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <MainLayout/>,
-        children:[
+        element: <MainLayout />,
+        children: [
             {
                 path: '/',
-                element: <Home/>,
-                loader: ()=> fetch('../Categories.json'),
+                element: <Home />,
+                loader: () => fetch('../Categories.json'),
                 children: [
-                //    {
-                //     path:'/category/:category',
-                //     element: <GadgetCard/>,
-                //     loader: '../AllProduct.json'
-                //    },
+                    {
+                        path: '/category/:category',
+                        element: <GadgetCard />,
+                        loader: () => fetch('../AllProduct.json'),
+                    },
 
-                ]
+                ],
             },
         ]
     },
