@@ -1,258 +1,257 @@
 [
-    {
-      "product_id": "201",
-      "product_title": "Gaming Laptop Pro",
-      "product_image": "https://example.com/images/gaming-laptop-pro.jpg",
-      "category": "Laptop",
-      "price": 1299.99,
-      "description": "High-performance gaming laptop with the latest graphics card and powerful processor.",
-      "specification": [
-        "Intel Core i7 processor",
-        "NVIDIA RTX 3060",
-        "16GB RAM",
-        "1TB SSD"
-      ],
-      "availability": true,
-      "rating": 4.8,
-      "other_field": "RGB backlit keyboard"
-    },
-    {
-      "product_id": "202",
-      "product_title": "Ultrabook Slim",
-      "product_image": "https://example.com/images/ultrabook-slim.jpg",
-      "category": "Laptop",
-      "price": 999.99,
-      "description": "Slim and lightweight ultrabook with extended battery life.",
-      "specification": [
-        "Intel Core i5 processor",
-        "8GB RAM",
-        "512GB SSD",
-        "14-inch Full HD display"
-      ],
-      "availability": true,
-      "rating": 4.5,
-      "other_field": "Fingerprint reader"
-    },
-    {
-      "product_id": "203",
-      "product_title": "Budget Laptop",
-      "product_image": "https://example.com/images/budget-laptop.jpg",
-      "category": "Laptop",
-      "price": 549.99,
-      "description": "Affordable laptop for everyday tasks and internet browsing.",
-      "specification": [
-        "Intel Core i3 processor",
-        "4GB RAM",
-        "256GB SSD",
-        "15.6-inch HD display"
-      ],
-      "availability": false,
-      "rating": 4.0,
-      "other_field": "1-year warranty"
-    },
-    {
-      "product_id": "301",
-      "product_title": "Android Smartphone",
-      "product_image": "https://example.com/images/android-smartphone.jpg",
-      "category": "Phones",
-      "price": 299.99,
-      "description": "Affordable Android smartphone with a large screen and long-lasting battery.",
-      "specification": [
-        "6.5-inch display",
-        "Quad-core processor",
-        "64GB storage",
-        "4000mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.3,
-      "other_field": "Dual SIM"
-    },
-    {
-      "product_id": "302",
-      "product_title": "Flagship Android Phone",
-      "product_image": "https://example.com/images/flagship-android.jpg",
-      "category": "Phones",
-      "price": 899.99,
-      "description": "High-end Android smartphone with an advanced camera system.",
-      "specification": [
-        "6.7-inch OLED display",
-        "Octa-core processor",
-        "128GB storage",
-        "4500mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.7,
-      "other_field": "5G support"
-    },
-    {
-      "product_id": "303",
-      "product_title": "Budget Android Phone",
-      "product_image": "https://example.com/images/budget-android.jpg",
-      "category": "Phones",
-      "price": 199.99,
-      "description": "Budget-friendly Android phone with essential features.",
-      "specification": [
-        "5.5-inch display",
-        "Quad-core processor",
-        "32GB storage",
-        "3000mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.1,
-      "other_field": "Face unlock"
-    },
-    {
-      "product_id": "401",
-      "product_title": "Wireless Earbuds",
-      "product_image": "https://example.com/images/wireless-earbuds.jpg",
-      "category": "Accessories",
-      "price": 49.99,
-      "description": "Compact wireless earbuds with noise cancellation.",
-      "specification": [
-        "Bluetooth 5.1",
-        "Noise Cancellation",
-        "20 hours playtime",
-        "Water-resistant"
-      ],
-      "availability": true,
-      "rating": 4.5,
-      "other_field": "Charging case included"
-    },
-    {
-      "product_id": "402",
-      "product_title": "Laptop Cooling Pad",
-      "product_image": "https://example.com/images/laptop-cooling-pad.jpg",
-      "category": "Accessories",
-      "price": 19.99,
-      "description": "Ergonomic cooling pad for laptops to prevent overheating.",
-      "specification": [
-        "USB powered",
-        "5 cooling fans",
-        "Adjustable height",
-        "Fits up to 17-inch laptops"
-      ],
-      "availability": true,
-      "rating": 4.3,
-      "other_field": "Non-slip surface"
-    },
-    {
-      "product_id": "403",
-      "product_title": "Smartphone Stand",
-      "product_image": "https://example.com/images/smartphone-stand.jpg",
-      "category": "Accessories",
-      "price": 9.99,
-      "description": "Adjustable smartphone stand with non-slip base.",
-      "specification": [
-        "Adjustable height and angle",
-        "Non-slip base",
-        "Compatible with most smartphones",
-        "Portable design"
-      ],
-      "availability": true,
-      "rating": 4.4,
-      "other_field": "Foldable"
-    },
-    {
-      "product_id": "501",
-      "product_title": "Smartwatch Fit",
-      "product_image": "https://example.com/images/smartwatch-fit.jpg",
-      "category": "Smartwatch",
-      "price": 99.99,
-      "description": "Fitness smartwatch with heart rate monitoring and step tracking.",
-      "specification": [
-        "Heart rate monitor",
-        "Sleep tracker",
-        "Water-resistant",
-        "GPS"
-      ],
-      "availability": true,
-      "rating": 4.6,
-      "other_field": "1-week battery life"
-    },
-    {
-      "product_id": "502",
-      "product_title": "Classic Smartwatch",
-      "product_image": "https://example.com/images/classic-smartwatch.jpg",
-      "category": "Smartwatch",
-      "price": 149.99,
-      "description": "Stylish smartwatch with customizable watch faces and notifications.",
-      "specification": [
-        "Customizable faces",
-        "Notifications",
-        "Activity tracking",
-        "Bluetooth connectivity"
-      ],
-      "availability": true,
-      "rating": 4.2,
-      "other_field": "Magnetic charger included"
-    },
-    {
-      "product_id": "503",
-      "product_title": "Pro Smartwatch",
-      "product_image": "https://example.com/images/pro-smartwatch.jpg",
-      "category": "Smartwatch",
-      "price": 199.99,
-      "description": "High-end smartwatch with comprehensive health tracking and apps.",
-      "specification": [
-        "ECG monitor",
-        "Sleep & stress tracking",
-        "Water-resistant up to 50m",
-        "WiFi & GPS"
-      ],
-      "availability": true,
-      "rating": 4.7,
-      "other_field": "Wireless charging"
-    },
-    {
-      "product_id": "601",
-      "product_title": "iPhone 12",
-      "product_image": "https://example.com/images/iphone-12.jpg",
-      "category": "iPhone",
-      "price": 699.99,
-      "description": "Sleek design with an advanced dual-camera system and powerful chip.",
-      "specification": [
-        "6.1-inch Super Retina XDR display",
-        "A14 Bionic chip",
-        "Dual 12MP cameras",
-        "5G capable"
-      ],
-      "availability": true,
-      "rating": 4.8,
-      "other_field": "Ceramic Shield front"
-    },
-    {
-      "product_id": "602",
-      "product_title": "iPhone 13",
-      "product_image": "https://example.com/images/iphone-13.jpg",
-      "category": "iPhone",
-      "price": 799.99,
-      "description": "Advanced iPhone with improved battery life and cinematic video capabilities.",
-      "specification": [
-        "6.1-inch Super Retina XDR display",
-        "A15 Bionic chip",
-        "Dual 12MP cameras with night mode",
-        "5G capable"
-      ],
-      "availability": true,
-      "rating": 4.9,
-      "other_field": "Up to 19 hours video playback"
-    },
-    {
-      "product_id": "603",
-      "product_title": "iPhone SE",
-      "product_image": "https://example.com/images/iphone-se.jpg",
-      "category": "iPhone",
-      "price": 429.99,
-      "description": "Compact iPhone with powerful performance at an affordable price.",
-      "specification": [
-        "4.7-inch Retina HD display",
-        "A13 Bionic chip",
-        "12MP wide camera",
-        "4G LTE"
-      ],
-      "availability": true,
-      "rating": 4.5,
-      "other_field": "Touch ID"
-    }
-  ]
-  
+  {
+    "product_id": "201",
+    "product_title": "Gaming Laptop Pro",
+    "product_image": "https://i.ibb.co.com/VLyV6P6/ideapad-gaming-3-001-228x228.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "High-performance gaming laptop with the latest graphics card and powerful processor.",
+    "specification": [
+      "Intel Core i7 processor",
+      "NVIDIA RTX 3060",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "other_field": "RGB backlit keyboard"
+  },
+  {
+    "product_id": "202",
+    "product_title": "Ultrabook Slim",
+    "product_image": "https://i.ibb.co.com/h79GPkP/ideapad-slim-3-15amn8-0001-228x228.webp",
+    "category": "Laptop",
+    "price": 999.99,
+    "description": "Slim and lightweight ultrabook with extended battery life.",
+    "specification": [
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "512GB SSD",
+      "14-inch Full HD display"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_field": "Fingerprint reader"
+  },
+  {
+    "product_id": "203",
+    "product_title": "Budget Laptop",
+    "product_image": "https://i.ibb.co.com/sshdDDF/macbook-air-13-inch-m3-midnight-01-228x228.webp",
+    "category": "Laptop",
+    "price": 549.99,
+    "description": "Affordable laptop for everyday tasks and internet browsing.",
+    "specification": [
+      "Intel Core i3 processor",
+      "4GB RAM",
+      "256GB SSD",
+      "15.6-inch HD display"
+    ],
+    "availability": false,
+    "rating": 4.0,
+    "other_field": "1-year warranty"
+  },
+  {
+    "product_id": "301",
+    "product_title": "Android Smartphone",
+    "product_image": "https://i.ibb.co.com/6NbMTL3/bd-galaxy-m53-5g-sm-m536-sm-m536bzbfbkd-thumb-533454445.webp",
+    "category": "Phones",
+    "price": 299.99,
+    "description": "Affordable Android smartphone with a large screen and long-lasting battery.",
+    "specification": [
+      "6.5-inch display",
+      "Quad-core processor",
+      "64GB storage",
+      "4000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "other_field": "Dual SIM"
+  },
+  {
+    "product_id": "302",
+    "product_title": "Flagship Android Phone",
+    "product_image": "https://i.ibb.co.com/7N185DN/HOME-E3-Global-376x376-pc.webp",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "High-end Android smartphone with an advanced camera system.",
+    "specification": [
+      "6.7-inch OLED display",
+      "Octa-core processor",
+      "128GB storage",
+      "4500mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_field": "5G support"
+  },
+  {
+    "product_id": "303",
+    "product_title": "Budget Android Phone",
+    "product_image": "https://i.ibb.co.com/2NxV4Nw/PCD-Q5-Whats-new-160x160-pc-default.jpg",
+    "category": "Phones",
+    "price": 199.99,
+    "description": "Budget-friendly Android phone with essential features.",
+    "specification": [
+      "5.5-inch display",
+      "Quad-core processor",
+      "32GB storage",
+      "3000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.1,
+    "other_field": "Face unlock"
+  },
+  {
+    "product_id": "401",
+    "product_title": "Wireless Earbuds",
+    "product_image": "https://i.ibb.co.com/LDwGhH5/1.png",
+    "category": "Accessories",
+    "price": 49.99,
+    "description": "Compact wireless earbuds with noise cancellation.",
+    "specification": [
+      "Bluetooth 5.1",
+      "Noise Cancellation",
+      "20 hours playtime",
+      "Water-resistant"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_field": "Charging case included"
+  },
+  {
+    "product_id": "402",
+    "product_title": "Laptop Cooling Pad",
+    "product_image": "https://i.ibb.co.com/pXHSdSX/Cooling-fan.jpg",
+    "category": "Accessories",
+    "price": 19.99,
+    "description": "Ergonomic cooling pad for laptops to prevent overheating.",
+    "specification": [
+      "USB powered",
+      "5 cooling fans",
+      "Adjustable height",
+      "Fits up to 17-inch laptops"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "other_field": "Non-slip surface"
+  },
+  {
+    "product_id": "403",
+    "product_title": "Smartphone Stand",
+    "product_image": "https://i.ibb.co.com/HpNp1MH/mobile-stand.webp",
+    "category": "Accessories",
+    "price": 9.99,
+    "description": "Adjustable smartphone stand with non-slip base.",
+    "specification": [
+      "Adjustable height and angle",
+      "Non-slip base",
+      "Compatible with most smartphones",
+      "Portable design"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "other_field": "Foldable"
+  },
+  {
+    "product_id": "501",
+    "product_title": "Smartwatch Fit",
+    "product_image": "https://i.ibb.co.com/Yc6kJYR/product-s10-deak4mdempoy-large.png",
+    "category": "Smartwatch",
+    "price": 99.99,
+    "description": "Fitness smartwatch with heart rate monitoring and step tracking.",
+    "specification": [
+      "Heart rate monitor",
+      "Sleep tracker",
+      "Water-resistant",
+      "GPS"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "other_field": "1-week battery life"
+  },
+  {
+    "product_id": "502",
+    "product_title": "Classic Smartwatch",
+    "product_image": "https://i.ibb.co.com/1GPqFsR/product-se-frx4hb13romm-large.png",
+    "category": "Smartwatch",
+    "price": 149.99,
+    "description": "Stylish smartwatch with customizable watch faces and notifications.",
+    "specification": [
+      "Customizable faces",
+      "Notifications",
+      "Activity tracking",
+      "Bluetooth connectivity"
+    ],
+    "availability": true,
+    "rating": 4.2,
+    "other_field": "Magnetic charger included"
+  },
+  {
+    "product_id": "503",
+    "product_title": "Pro Smartwatch",
+    "product_image": "https://i.ibb.co.com/3sBT4hc/product-u2-ebztafh9rvau-large.png",
+    "category": "Smartwatch",
+    "price": 199.99,
+    "description": "High-end smartwatch with comprehensive health tracking and apps.",
+    "specification": [
+      "ECG monitor",
+      "Sleep & stress tracking",
+      "Water-resistant up to 50m",
+      "WiFi & GPS"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "other_field": "Wireless charging"
+  },
+  {
+    "product_id": "601",
+    "product_title": "iPhone 16 pro max",
+    "product_image": "https://i.ibb.co.com/JKhXyB5/iphone-16-pro-128gb-natural-titanium.jpg",
+    "category": "iPhone",
+    "price": 699.99,
+    "description": "Sleek design with an advanced dual-camera system and powerful chip.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A14 Bionic chip",
+      "Dual 12MP cameras",
+      "5G capable"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "other_field": "Ceramic Shield front"
+  },
+  {
+    "product_id": "602",
+    "product_title": "iPhone 16 pro",
+    "product_image": "https://i.ibb.co.com/cFVNJ19/iphone-16-pro-max-256gb-black-titanium.jpg",
+    "category": "iPhone",
+    "price": 799.99,
+    "description": "Advanced iPhone with improved battery life and cinematic video capabilities.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A15 Bionic chip",
+      "Dual 12MP cameras with night mode",
+      "5G capable"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "other_field": "Up to 19 hours video playback"
+  },
+  {
+    "product_id": "603",
+    "product_title": "iPhone 16",
+    "product_image": "https://i.ibb.co.com/MnZq3NQ/iphone-16-pro-max-256gb-black-titanium.jpg",
+    "category": "iPhone",
+    "price": 429.99,
+    "description": "Compact iPhone with powerful performance at an affordable price.",
+    "specification": [
+      "4.7-inch Retina HD display",
+      "A13 Bionic chip",
+      "12MP wide camera",
+      "4G LTE"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "other_field": "Touch ID"
+  }
+]

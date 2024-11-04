@@ -5,22 +5,23 @@ import Categories from "../Categories";
 
 const Home = () => {
 
-    const categories =useLoaderData();
+    const categories = useLoaderData();
     return (
         <div>
             {/* Banner */}
-            <Banner/>
+            <Banner />
 
             {/* Heading */}
 
 
             {/* Category tab section */}
-            <Categories categories={categories}/>
-
-
+            <Categories categories={categories} />
+        
+           
+            
 
             {/* Dynamic Nasted component */}
-                <Outlet/>
+            <Outlet />
         </div>
     );
 };
