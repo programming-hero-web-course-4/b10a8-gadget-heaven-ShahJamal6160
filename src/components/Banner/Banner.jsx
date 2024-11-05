@@ -1,15 +1,12 @@
 import React from 'react';
-import BannerImg from '../assets/Images/banner.jpg'
 
 const Banner = () => {
     return (
-
-
         <div className='min-h-screen'>
             <div className=" hero top-[550px] right-[-2px] ">
                 <div className="hero-content">
                     <img
-                        src={BannerImg}
+                        src=""
                         className="w-72 lg:w-1/2 rounded-lg shadow-2xl" />
 
                 </div>
