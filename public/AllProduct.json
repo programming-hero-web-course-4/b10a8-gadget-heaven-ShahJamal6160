@@ -1,6 +1,6 @@
 [
   {
-    "product_id": "201",
+    "product_id": 201,
     "product_title": "Gaming Laptop Pro",
     "product_image": "https://i.ibb.co.com/VLyV6P6/ideapad-gaming-3-001-228x228.jpg",
     "category": "Laptop",
@@ -17,7 +17,7 @@
     "other_field": "RGB backlit keyboard"
   },
   {
-    "product_id": "202",
+    "product_id": 202,
     "product_title": "Ultrabook Slim",
     "product_image": "https://i.ibb.co.com/h79GPkP/ideapad-slim-3-15amn8-0001-228x228.webp",
     "category": "Laptop",
@@ -34,7 +34,7 @@
     "other_field": "Fingerprint reader"
   },
   {
-    "product_id": "203",
+    "product_id": 203,
     "product_title": "Budget Laptop",
     "product_image": "https://i.ibb.co.com/sshdDDF/macbook-air-13-inch-m3-midnight-01-228x228.webp",
     "category": "Laptop",
@@ -51,7 +51,7 @@
     "other_field": "1-year warranty"
   },
   {
-    "product_id": "301",
+    "product_id": 301,
     "product_title": "Android Smartphone",
     "product_image": "https://i.ibb.co.com/6NbMTL3/bd-galaxy-m53-5g-sm-m536-sm-m536bzbfbkd-thumb-533454445.webp",
     "category": "Phones",
@@ -68,7 +68,7 @@
     "other_field": "Dual SIM"
   },
   {
-    "product_id": "302",
+    "product_id": 302,
     "product_title": "Sumsung S20",
     "product_image": "https://i.ibb.co.com/7N185DN/HOME-E3-Global-376x376-pc.webp",
     "category": "Phones",
@@ -85,7 +85,7 @@
     "other_field": "5G support"
   },
   {
-    "product_id": "303",
+    "product_id": 303,
     "product_title": "Budget Android Phone",
     "product_image": "https://i.ibb.co.com/2NxV4Nw/PCD-Q5-Whats-new-160x160-pc-default.jpg",
     "category": "Phones",
@@ -102,7 +102,7 @@
     "other_field": "Face unlock"
   },
   {
-    "product_id": "401",
+    "product_id": 401,
     "product_title": "Wireless Earbuds",
     "product_image": "https://i.ibb.co.com/LDwGhH5/1.png",
     "category": "Accessories",
@@ -119,7 +119,7 @@
     "other_field": "Charging case included"
   },
   {
-    "product_id": "402",
+    "product_id": 402,
     "product_title": "Laptop Cooling Pad",
     "product_image": "https://i.ibb.co.com/pXHSdSX/Cooling-fan.jpg",
     "category": "Accessories",
@@ -136,7 +136,7 @@
     "other_field": "Non-slip surface"
   },
   {
-    "product_id": "403",
+    "product_id": 403,
     "product_title": "Smartphone Stand",
     "product_image": "https://i.ibb.co.com/HpNp1MH/mobile-stand.webp",
     "category": "Accessories",
@@ -153,7 +153,7 @@
     "other_field": "Foldable"
   },
   {
-    "product_id": "501",
+    "product_id": 501,
     "product_title": "Smartwatch Fit",
     "product_image": "https://i.ibb.co.com/Yc6kJYR/product-s10-deak4mdempoy-large.png",
     "category": "Smartwatch",
@@ -170,7 +170,7 @@
     "other_field": "1-week battery life"
   },
   {
-    "product_id": "502",
+    "product_id": 502,
     "product_title": "Classic Smartwatch",
     "product_image": "https://i.ibb.co.com/1GPqFsR/product-se-frx4hb13romm-large.png",
     "category": "Smartwatch",
@@ -187,7 +187,7 @@
     "other_field": "Magnetic charger included"
   },
   {
-    "product_id": "503",
+    "product_id": 503,
     "product_title": "Pro Smartwatch",
     "product_image": "https://i.ibb.co.com/3sBT4hc/product-u2-ebztafh9rvau-large.png",
     "category": "Smartwatch",
@@ -204,7 +204,7 @@
     "other_field": "Wireless charging"
   },
   {
-    "product_id": "601",
+    "product_id": 601,
     "product_title": "iPhone 16 pro max",
     "product_image": "https://i.ibb.co.com/JKhXyB5/iphone-16-pro-128gb-natural-titanium.jpg",
     "category": "iPhone",
@@ -221,7 +221,7 @@
     "other_field": "Ceramic Shield front"
   },
   {
-    "product_id": "602",
+    "product_id": 602,
     "product_title": "iPhone 16 pro",
     "product_image": "https://i.ibb.co.com/cFVNJ19/iphone-16-pro-max-256gb-black-titanium.jpg",
     "category": "iPhone",
@@ -238,7 +238,7 @@
     "other_field": "Up to 19 hours video playback"
   },
   {
-    "product_id": "603",
+    "product_id": 603,
     "product_title": "iPhone 16",
     "product_image": "https://i.ibb.co.com/MnZq3NQ/iphone-16-pro-max-256gb-black-titanium.jpg",
     "category": "iPhone",

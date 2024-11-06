@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { IoIosHeart  } from "react-icons/io";
 
 const Navber = () => {
 
@@ -40,7 +41,9 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <div><IoIosHeart/></div>
+                
+
             </div>
         </div>
     );

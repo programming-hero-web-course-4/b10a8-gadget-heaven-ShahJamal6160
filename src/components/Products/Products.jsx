@@ -15,7 +15,7 @@ const Products = () => {
             .then(data => {
                 setProducts(data);
                 const btnCategories = [...new Set(data.map(product => product.category))];
-                setCategories(btnCategories.map((category,index) => ({ category_id: index, category: category })))
+                setCategories(btnCategories.map((category, index) => ({ category_id: index, category: category })))
             })
     }, [])
 
@@ -35,7 +35,7 @@ const Products = () => {
                 }
             </div>
 
-            <div className='grid grid-cols-3 gap-4 mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto'>
                
 
                 {
