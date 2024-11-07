@@ -1,21 +1,26 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToStoredCartList } from '../Utility/AddToListDb';
 
 const ProductsDetail = () => {
-    const { product_id } = useParams();
+    const { productId } = useParams();
     const data = useLoaderData();
-    const id = parseInt(product_id);
+    const id = parseInt(productId);
 
-    const product = data.find(product => product.product_id === id);
+    const product = data.find(product => product.productId === id);
 
-    const {product_id: currenProductId, product_image, product_title, price, availability, description, specification, rating } = product;
+    const {productId: currenProductId, product_image, product_title, price, availability, description, specification, rating } = product;
+
+    const handleCartList = ()=>{
+        addToStoredCartList(id)
+    }
 
     // console.log(product)
     return (
         <div className="hero bg-base-200 min-h-screen">
             
             <div className="hero-content flex-col lg:flex-row">
-            {/* <h1>Details: {product_id}</h1> */}
+            {/* <h1>Details: {productId}</h1> */}
                 <img
                     src={product_image}
                     className="w-[400px] h-[500px] rounded-lg shadow-2xl" />
@@ -40,7 +45,7 @@ const ProductsDetail = () => {
                     </div>
 
                     <div>
-                        <button>Add to card</button>
+                        <button onClick={()=>handleCartList(productId)} className='btn'>Add to card</button>
                     </div>
 
                 </div>

@@ -19,7 +19,7 @@ const Products = () => {
             })
     }, [])
 
-    // const filteredProducts = category ? products.filter(product => product.category === category) : products;
+   
     return (
         <div className='container flex gap-20 mt-10'>
 
@@ -39,7 +39,7 @@ const Products = () => {
                
 
                 {
-                    products.map(product => <Product key={product.product_id} product={product} />)
+                    products.map(product => <Product key={product.productId} product={product} />)
                 }
             </div>
 
