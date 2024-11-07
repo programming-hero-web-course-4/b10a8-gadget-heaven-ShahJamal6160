@@ -1,6 +1,8 @@
 import React from 'react';
+import { IoIosHeart  } from "react-icons/io";
 import { useLoaderData, useParams } from 'react-router-dom';
-import { addToStoredCartList } from '../Utility/AddToListDb';
+import { addToStoredCartList, addToStoredWishList } from '../Utility/AddToListDb';
+
 
 const ProductsDetail = () => {
     const { productId } = useParams();
@@ -14,7 +16,10 @@ const ProductsDetail = () => {
     const handleCartList = ()=>{
         addToStoredCartList(id)
     }
-
+    
+    const handleWishList =()=>{
+        addToStoredWishList(id)
+    }
     // console.log(product)
     return (
         <div className="hero bg-base-200 min-h-screen">
@@ -46,6 +51,9 @@ const ProductsDetail = () => {
 
                     <div>
                         <button onClick={()=>handleCartList(productId)} className='btn'>Add to card</button>
+                        <div>
+                            <IoIosHeart onClick={()=>handleWishList(productId)}/>
+                        </div>
                     </div>
 
                 </div>
