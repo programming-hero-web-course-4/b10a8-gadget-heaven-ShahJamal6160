@@ -21,21 +21,22 @@ const Products = () => {
 
    
     return (
-        <div className='container flex gap-20 mt-10'>
+        <div className='container flex gap-4 mt-36'>
 
-            <div className='w-1/12 flex flex-col gap-2'>
+            <div className='w-2/12 h-96 flex flex-col gap-2 border border-5 items-center py-10 rounded-lg'>
                 {
                     categories.map(category => (
 
-                        <NavLink key={category.category} to={`/category/${category.category}`}>
+                        <NavLink  key={category.category} to={`/category/${category.category}`} className="btn mt-2 bg-purple-500">
                                 {category.category}
                         </NavLink>
+                        
 
                     ))
                 }
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto '>
                
 
                 {
